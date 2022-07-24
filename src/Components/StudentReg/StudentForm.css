@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.formPanel {
+  padding-left: 15px;
+}
+
+.studentform {
+  width: 800px;
+  border-style: solid;
+  border-color: grey;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.formLabel {
+  width: 120px;
+}
+
+.inputField {
+  width: 250px;
+}
+
+.error {
+  color: red;
+}
+
+.note {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  margin: 20px;
+  background: rgb(24, 144, 255);
+  color: white;
+  border-style: none;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+}
+
+.fetchButton {
+  background: rgb(24, 144, 255);
+  color: white;
+  border-style: none;
+  padding: 4px 20px 4px 20px;
+  cursor: pointer;
+}
+
+.uploadButton {
+  position: 0 0;
+  background: rgb(24, 144, 255);
+  max-height: 30px;
+  color: white;
+  border-style: none;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+label {
+  margin: 10px;
+}
+
+.bulkUploadPanel {
+  display: flex;
+  flex-direction: row;
+  row-gap: 5px;
+  column-gap: 5px;
+  justify-content: left;
+  text-align: left;
+}
